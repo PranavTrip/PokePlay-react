@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(238, 188, 94, 0.719);
+  font-family: 'Zen Loop', cursive;
+}
+.main_div {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 2px solid black;
+  height: 100vh;
+}
+span {
+  color: crimson;
+  text-transform: capitalize;
+}
+button{
+  margin: 5px;
+  padding: 5px;
+  outline: none;
+  border-radius: 2px;
+  font-size: 30px
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+.center_div{
+  border: 2px double black;
+  /* width: auto; */
+  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer{
+  text-align: center;
+  /* width: auto; */
+  font-size: 20px;
+}
